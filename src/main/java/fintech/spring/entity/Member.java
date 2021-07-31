@@ -15,6 +15,7 @@ import javax.persistence.Id;
 public class Member {
     @Id
     @GeneratedValue //시퀀스 생성
+    Long seq;
     String id;
     String name;
     String org;
